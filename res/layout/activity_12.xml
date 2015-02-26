@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dddd"
+    tools:context=".MainActivity" >
+    
+       <com.ylc.view.MyWeiXingView
+        android:id="@+id/myweixing"
+        android:layout_width="50dp"
+        android:layout_centerInParent="true"
+        android:layout_height="50dp" >
+    </com.ylc.view.MyWeiXingView>
+
+
+</RelativeLayout>

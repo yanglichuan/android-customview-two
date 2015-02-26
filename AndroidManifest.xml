@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bittt3"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ylc.activity.Activity_Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.bittt3.Main3"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity android:name="com.ylc.activity.Activity_One" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_Two" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_Three" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_Four" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_Five" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_six" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_7" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_8" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_9" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_10" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_11" >
+        </activity>
+        <activity android:name="com.ylc.activity.Activity_12" >
+        </activity>
+        
+        
+<activity
+            android:name="com.example.bittt3.Main2"
+            android:label="@string/app_name" >
+        </activity>
+        
+         
+    </application>
+
+</manifest>

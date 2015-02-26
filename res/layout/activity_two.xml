@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dddd"
+    tools:context=".MainActivity" >
+
+    <com.ylc.view.MyBatteryView
+        android:id="@+id/mybattery"
+        android:layout_width="29dp"
+        android:layout_height="11dp"
+        android:layout_centerInParent="true" >
+    </com.ylc.view.MyBatteryView>
+
+</RelativeLayout>
